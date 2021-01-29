@@ -5,11 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "push" : "git add . && git commit -m",
+    "pustpush": "git push -All"
   },
   "dependencies": {
     "next": "10.0.5",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2"
   }
 }
