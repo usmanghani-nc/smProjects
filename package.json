@@ -6,16 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "push" : "git add . && git commit -m",
+    "push": "git add . && git commit -m",
     "pustpush": "git push -All"
   },
   "dependencies": {
+    "bulma": "^0.9.2",
+    "moment": "^2.29.1",
     "next": "10.0.5",
     "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
-  "devDependencies": {
-    "prop-types": "^15.7.2"
-  }
+  "devDependencies": {}
 }
