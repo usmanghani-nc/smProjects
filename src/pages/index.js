@@ -5,6 +5,10 @@ export default function index() {
         <h1 className="title has-text-info">
           <a href="/todo">Todo</a>
         </h1>
+
+        <h1 className="title has-text-info">
+          <a href="/calculator">Calculator</a>
+        </h1>
       </div>
     </section>
   );

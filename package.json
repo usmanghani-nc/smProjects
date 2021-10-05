@@ -10,9 +10,14 @@
     "pustpush": "git push -All"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.15",
+    "@amcharts/amcharts4-fonts": "^4.0.1",
+    "@amcharts/amcharts4-geodata": "^4.1.19",
+    "axios": "^0.21.1",
     "bulma": "^0.9.2",
     "moment": "^2.29.1",
     "next": "10.0.5",
+    "next-transpile-modules": "^6.1.0",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
